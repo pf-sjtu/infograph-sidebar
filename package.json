@@ -1,12 +1,17 @@
 {
-	"name": "obsidian-infographic",
-	"version": "0.1.9",
-	"description": "Render AntV Infographic visualizations from fenced code blocks in Obsidian",
+	"name": "infograph-sidebar",
+	"version": "0.4.3",
+	"description": "Sidebar infographics for research notes: logic overview + data panels, source anchors, configurable auto-generation",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"build:esbuild": "node esbuild.config.mjs production",
+		"bump-build": "node scripts/bump-build.mjs",
+		"deploy": "node scripts/deploy.mjs",
+		"release": "node esbuild.config.mjs production && node scripts/deploy.mjs",
+		"test:sanitize": "node --experimental-strip-types scripts/test-sanitize.mjs",
 		"version": "node version-bump.mjs && git add manifest.json versions.json",
 		"lint": "eslint ."
 	},

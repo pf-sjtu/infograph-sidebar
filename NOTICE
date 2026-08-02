@@ -1,0 +1,18 @@
+Infograph Sidebar
+=================
+
+This project is a fork of:
+
+  shuuul/obsidian-infographic
+  https://github.com/shuuul/obsidian-infographic
+  Licensed under the Apache License, Version 2.0
+
+Upstream provides AntV Infographic code-block rendering, export, and PDF snapshot support.
+
+Fork additions:
+  - LLM extraction of AntV Infographic DSL from note body
+  - Sidebar ItemView with live preview, cache, regenerate, insert DSL
+  - Configurable auto-generation policy and source-anchor navigation
+  - Deploy script via INFOGRAPH_OBSIDIAN_PLUGIN_DIR
+
+See LICENSE for the Apache-2.0 terms.
