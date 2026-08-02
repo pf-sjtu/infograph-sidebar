@@ -1,6 +1,6 @@
 {
 	"name": "infograph-sidebar",
-	"version": "0.4.3",
+	"version": "0.2.0",
 	"description": "Sidebar infographics for research notes: logic overview + data panels, source anchors, configurable auto-generation",
 	"main": "main.js",
 	"type": "module",

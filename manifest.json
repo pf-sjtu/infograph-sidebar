@@ -1,7 +1,7 @@
 {
 	"id": "infograph-sidebar",
 	"name": "Infograph Sidebar",
-	"version": "0.4.3",
+	"version": "0.2.0",
 	"minAppVersion": "1.0.0",
 	"description": "Sidebar infographics for research notes: logic overview + data panels, muted B&W/Claude-orange palettes, source anchors, and configurable auto-generation.",
 	"author": "pf-sjtu (fork of shuuul)",
